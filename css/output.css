@@ -485,6 +485,13 @@
       }
     }
   }
+  .hover\:bg-sky-500 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-sky-500);
+      }
+    }
+  }
   .hover\:shadow-\[0px_0px_10px\] {
     &:hover {
       @media (hover: hover) {
@@ -842,6 +849,15 @@
       &:hover {
         @media (hover: hover) {
           background-color: #1F3757;
+        }
+      }
+    }
+  }
+  .\[\&\>span\]\:hover\:bg-sky-500 {
+    &>span {
+      &:hover {
+        @media (hover: hover) {
+          background-color: var(--color-sky-500);
         }
       }
     }
